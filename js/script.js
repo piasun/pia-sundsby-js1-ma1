@@ -12,7 +12,7 @@ const cats = [
     }
 ];
 
-//question 1 - OK
+//question 1
 
 const cat = {
     complain: function() {
@@ -21,20 +21,20 @@ const cat = {
 } ;
 cat.complain();
 
-//question 2 OK
+//question 2
 
 const heading = document.querySelector("h3");
 heading.innerHTML = "Updated heading";
 
-//question 3 - OK
+//question 3
 
 heading.style.fontSize = "2em";
 
-//question 4 - OK
+//question 4
 
 heading.className = "subheading";
 
-//question 5 - OK
+//question 5
 
 const paragraphs = document.querySelectorAll("p");
 for(let i = 0; i < paragraphs.length; i++) {
@@ -43,13 +43,13 @@ for(let i = 0; i < paragraphs.length; i++) {
 }
 
 
-//qustion 6 - OK
+//qustion 6
 
 const resultsContainer = document.querySelector(".results");
 resultsContainer.innerHTML = "<p>New paragraph</p>";
 resultsContainer.style.backgroundColor = "yellow";
 
-//question 7 - IKKE KLAR
+//question 7
 
 function createList(list) {
     for (let i = 0; i < cats.length; i ++)
@@ -59,7 +59,7 @@ function createList(list) {
 createList(cats);
 
 
-//question 8 - OK
+//question 8
 
 const createCats = document.querySelector(".cat-container");
 
