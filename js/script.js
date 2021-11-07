@@ -51,18 +51,19 @@ resultsContainer.style.backgroundColor = "yellow";
 
 //question 7 - IKKE KLAR
 
-function testList(list) {
-    console.log(list);
+function createList(list) {
+    for (let i = 0; i < cats.length; i ++)
+      console.log(list[i]);
 }
 
-testList("hei på deg");
+createList(cats);
 
 
-//question 8 - IKKE KLAR
+//question 8 - OK
 
-const catContainer = document.querySelector(".cat-container");
+const createCats = document.querySelector(".cat-container");
 
-console.log(catContainer);
+console.log(createCats);
 
 let html = "";
 
@@ -82,7 +83,4 @@ for (let i = 0; i < cats.length; i ++) {
     console.log(html);
 }
 
-catContainer.innerHTML = html;
-
-
-
+createCats.innerHTML = html;
